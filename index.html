@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown in Action - Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #24292f;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #656d76;
+            margin-bottom: 2rem;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            color: #656d76;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .github-link {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #d0d7de;
+        }
+
+        .github-link a {
+            color: #0969da;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+
+        .features {
+            margin: 2rem 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            text-align: left;
+        }
+
+        .feature {
+            padding: 1.5rem;
+            background: #f6f8fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .feature h3 {
+            color: #24292f;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .feature p {
+            color: #656d76;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">📝</div>
+        <h1>Markdown in Action</h1>
+        <p class="subtitle">Your Complete Guide to Mastering Markdown</p>
+        
+        <p class="description">
+            Welcome to the ultimate resource for learning and mastering Markdown! 
+            This repository contains comprehensive guides, best practices, and 
+            GitHub-specific features to help you write better documentation.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🚀 Common Usage</h3>
+                <p>Learn basic syntax, formatting rules, and universal conventions for Markdown files.</p>
+            </div>
+            <div class="feature">
+                <h3>🐙 GitHub Features</h3>
+                <p>Discover GitHub Flavored Markdown, task lists, emoji support, and repository templates.</p>
+            </div>
+            <div class="feature">
+                <h3>✨ Best Practices</h3>
+                <p>Follow industry standards for documentation, accessibility, and team collaboration.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/trungnd6/md-in-action/blob/main/README.md" class="cta-button">
+            📖 Read the Complete Guide
+        </a>
+
+        <div class="github-link">
+            <p>
+                <strong>Repository:</strong> 
+                <a href="https://github.com/trungnd6/md-in-action" target="_blank">
+                    github.com/trungnd6/md-in-action
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
