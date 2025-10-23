@@ -34,6 +34,7 @@ Ready-to-use examples:
 ### Reference Materials
 Technical references:
 - [**Complete Syntax Reference**](reference/syntax.md)
+- [**Emoji Reference Guide**](emoji-reference.md) - Comprehensive emoji syntax and compatibility
 - [**Platform Comparison**](reference/platform-comparison.md)
 - [**Tools and Editors**](reference/tools.md)
 - [**Best Practices Checklist**](reference/best-practices.md)
